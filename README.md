@@ -32,3 +32,17 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+PERSONAL NOTES:
+1. Khởi tạo project: npx create-next-app@latest ./
+2. Enter đến bước cuối cùng.
+3. Cài đặt một số package sau:
+    + npm install bcrypt
+    + npm install mongodb
+    + npm install mongoose
+    + npm install next-auth
+4. Xóa folder app và tạo lại.
+5. Tạo folder components, models, styles, utils là con trực tiếp của project.
+6. Xóa folder public và tạo lại.
+7. Tạo file .env.
+8. Vào file jsconfig.json, thay đổi "@/*" thành "@*".
