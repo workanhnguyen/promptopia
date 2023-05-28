@@ -49,3 +49,9 @@ PERSONAL NOTES:
 9. Vào link này và copy code, sau đó dán vào file next.config.js: https://github.com/adrianhajdin/project_next_13_ai_prompt_sharing/blob/main/next.config.js
 10. Thêm http:localhost:3000/api/auth/callback/google vào API Cloud google app ở mục API redirect.
 11. Thêm .env vào gitignore
+
+DEPLOYMENT:
+1. Dùng Netlify hoặc Vercel up project lên thông qua github.
+2. Thêm các biến môi trường (Environment variables) là NEXTAUTH_URL, NEXTAUTH_URL_INTERNAL, NEXTAUTH_SECRET có giá trị như trong file .env ở local.
+3. Chỉnh network access ở mongoDB thành 0.0.0.0/0.
+4. Vào API Cloud Google, thêm các URI của hosting web deploy vào.
