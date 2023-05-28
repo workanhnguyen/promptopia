@@ -48,3 +48,4 @@ PERSONAL NOTES:
 8. Vào file jsconfig.json, thay đổi "@/*" thành "@*".
 9. Vào link này và copy code, sau đó dán vào file next.config.js: https://github.com/adrianhajdin/project_next_13_ai_prompt_sharing/blob/main/next.config.js
 10. Thêm http:localhost:3000/api/auth/callback/google vào API Cloud google app ở mục API redirect.
+11. Thêm .env vào gitignore
